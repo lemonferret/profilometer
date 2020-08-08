@@ -86,23 +86,3 @@ fig.tight_layout()
 
 plt.show()
 
-
-
-#fig, (ax0, ax1) = plt.subplots(nrows=2)
-
-#im = ax0.pcolormesh(x, y, z, cmap=cmap, norm=norm)
-#fig.colorbar(im, ax=ax0)
-#ax0.set_title('pcolormesh with levels')
-
-
-
-#cf = ax1.contourf(x[:-1, :-1] + dx/2.,
-#                  y[:-1, :-1] + dy/2., z, levels=levels,
-#                  cmap=cmap)
-#fig.colorbar(cf, ax=ax1)
-#ax1.set_title('contourf with levels')
-
-
-#fig.tight_layout()
-
-#plt.show()
